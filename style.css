@@ -1,7 +1,7 @@
 header{
     text-align: center;
-    color: #18230F;
-    background-color: #255F38;
+    color: #3D6F2C;
+    background-color: #27391C;
     padding:30px;
     font-family:'Courier New', Courier, monospace;
     border-radius: 100px;
@@ -13,11 +13,12 @@ body{
 }
 
 #coloredsection{
-    background-color: #255F38;
+    background-color: #27391C;
     margin-top: 20px;
     border-radius: 100px;
     padding-block: flex;
-
+    color: #3D6F2C;
+    padding-bottom: flex;
 }
 
 #text{
@@ -27,4 +28,37 @@ body{
     padding-right: 50px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+}
+
+button{
+    background-color: #27391C;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    outline: none;
+
+a {
+    color: #3D6F2C;
+}
+}
+
+button:hover{
+    background-color: #27391C;
+    color: #3D6F2C;
+    border: 2px solid #3D6F2C;
+    outline: none;
+    cursor: pointer;
+
+a {
+    color: #3D6F2C;
+}
+}
+
+#buttons{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
 }
