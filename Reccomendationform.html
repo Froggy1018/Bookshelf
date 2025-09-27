@@ -24,4 +24,33 @@
     <a href="Reccomendationform.html">Reccomend books!</a>
 </div>
 </div>
+
+<form id="form">
+    <h2>Reccomend a book!!</h2>
+    <label for="title">Book Title:</label><br>
+    <input type="text" id="title" name="title" required><br>
+    
+    <label for="author">Author:</label><br>
+    <input type="text" id="author" name="author" required><br>
+
+    <label for="genre">Genre:</label><br>
+    <input type="text" id="genre" name="genre" required><br>
+
+    <label for="thoughts">Your thoughts on the book?</label><br>
+    <textarea id="thoughts" name="thoughts" rows="4" cols="50" ></textarea><br>
+
+    <input type="submit" value="Submit" id="submitbutton">
+        <div id="form-message" style="margin-top:20px;color:#3D6F2C;font-size:18px; display:none;"></div>
+</form>
+
+<!-- Popup Modal -->
+<div id="popup-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(24,35,15,0.85); z-index:9999; justify-content:center; align-items:center;">
+    <div style="background:#27391C; color:#3D6F2C; padding:40px 30px; border-radius:20px; text-align:center; min-width:300px; box-shadow:0 0 20px #18230F;">
+        <span id="popup-message" style="font-size:22px;"></span><br><br>
+        <button onclick="document.getElementById('popup-modal').style.display='none'" style="background:#3D6F2C; color:#27391C; font-size:18px; padding:10px 30px; border:none; border-radius:8px; cursor:pointer;">Close</button>
+    </div>
+</div>
+</form>
+
+<script src="app.js"></script>
 </body>

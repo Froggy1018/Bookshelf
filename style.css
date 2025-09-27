@@ -93,6 +93,50 @@ a {
     color: #f8f4e1;
 }
 
+#form{
+   border-radius: 100px;
+   background-color: #27391C; 
+   border: 2px solid #3D6F2C;
+   margin-top: 20px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   color:#3D6F2C;
+
+    h2{
+        font-size: 30px;
+    }
+
+    label{
+        font-size: 20px;
+    }
+
+    #title, #author, #genre, #thoughts{
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        width: 300px;
+        height: 25px;
+        color:#3D6F2C;
+        background-color: #18230F;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 100px;
+    }
+
+    #submitbutton{
+        font-size: 20px;
+        background-color: #27391C;
+        color:#3D6F2C;
+        border-radius: 100px;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+button{
+    text-align: center;
+    align-items: center;
+}
 
 /* color palette: https://colorhunt.co/palette/18230f27391c255f381f7d53
 - tomorrow: add a few books and look at the layout
