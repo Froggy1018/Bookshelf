@@ -138,7 +138,26 @@ button{
     align-items: center;
 }
 
+#title{
+    font-size: 20px;
+    text-align: center;
+    color: #3D6F2C;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #27391C;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top:20px;
+    border:2px solid #3D6F2C;
+}
+
+#seriessection {
+    text-align: center;
+}
+
+
+
+
+
 /* color palette: https://colorhunt.co/palette/18230f27391c255f381f7d53
 - tomorrow: add a few books and look at the layout
-- start working on the recommendation form
 */ 
